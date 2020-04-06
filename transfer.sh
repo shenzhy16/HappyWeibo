@@ -1,0 +1,2 @@
+sed "s/|/\"},{\"inHome\":true,\"inHot\":true,\"inStatusComment\":true,\"word\":\"/g" list.txt>ShieldWords.bak #替换|
+sed -i '/./{s/^/[\{\"inHome\":true,\"inHot\":true,\"inStatusComment\":true,\"word\":\"&/;s/$/&\"\}]/}' ShieldWords.bak #补齐前后
