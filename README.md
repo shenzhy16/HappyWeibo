@@ -4,7 +4,9 @@
 ## 使用方法
 ### 直接使用
 这里已经给出大部分常用屏蔽词，包括流量明星、营销号、宗教、小广告等
+
 * **See用户：**下载`ShieldWords.bak`文件，依次点击设置->屏蔽设置->过滤词->导入，导入ShieldWords.bak；
+
 * **Share用户：**下载`ShieldWords.share_backup`文件，依次点击设置->隐私设置->关键词屏蔽->备份->导入屏蔽词，导入ShieldWords.bak；
 
 ### 自定义屏蔽词
