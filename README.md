@@ -1,5 +1,5 @@
 # HappyWeibo
- 批量化导入微博屏蔽词，净化微博环境，愉快刷微博！
+ 批量生成微博屏蔽词，净化微博环境
 
 ## 使用方法
 1. 将屏蔽关键词写入到`list_KW.txt`，将屏蔽账户名写入到`list_ID.txt`，格式均为
@@ -10,7 +10,7 @@
 
 2. 运行`transfer.sh`
 
-3. 第三方微博See用户依次点击设置->屏蔽设置->过滤词->导入，导入生成的ShieldWords.bak；Share用户依次点击设置->隐私设置->关键词屏蔽->新增，导入生成的ShieldWords.share_backup
+3. 第三方微博See用户依次点击设置->屏蔽设置->过滤词->导入，导入生成的ShieldWords.bak；Share用户依次点击设置->隐私设置->关键词屏蔽->备份->导入屏蔽词，导入生成的ShieldWords.share_backup
 
 ## 说明
 1. 仅安卓用户可用本方法，需下载See或Share
