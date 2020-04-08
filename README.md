@@ -10,10 +10,18 @@
 * **Share用户：** 下载`ShieldWords.share_backup`文件，依次点击设置->隐私设置->关键词屏蔽->备份->导入屏蔽词，导入ShieldWords.bak；
 
 ### 自定义屏蔽词
-1. 对`list_KW.txt`和`list_ID.txt`进行增删改查。`list_KW.txt`表示屏蔽关键词，`list_ID.txt`表示屏蔽账户名，格式均为
-```
-屏蔽词1|屏蔽词2|屏蔽词3|……|屏蔽词n
-```
+1. 对`list_KW.txt`和`list_ID.txt`进行增删改查。
+
+  其中`list_KW.txt`表示屏蔽关键词，`list_ID.txt`表示屏蔽账户名，格式均为
+
+  ```
+  屏蔽词1
+  屏蔽词2
+  ……
+  屏蔽词n
+  ```
+  注意最后没有空行
+
 2. 运行`transfer.sh`
 
 3. 和上面一样的方法导入生成的文件
